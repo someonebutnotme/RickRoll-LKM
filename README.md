@@ -8,7 +8,7 @@ A fun little project of mine that I developed in my free time.
 It is a LKM (Loadable Kernel Module) for x86-64 linux systems that opens a specific video that is predefined in the LKM (rickroll in this case) when user tries to play a video file.
 It does this by hooking into openat() linux system call.
 
-I got this idea from an old youtube conference (like DEFCON, BlackHat, can't remember exactly which) video (I couldn't find the link to the video, I will update this README.md if I found it again) and rebuilt it using [xcellerator's](https://github.com/xcellerator) ftrace helper header library (for hooking into syscalls) so it works on newer kernels.
+I got this idea from an old youtube conference (like DEFCON, BlackHat, can't remember exactly which) video (I couldn't find the link to the video, I will update this README.md if I found it again) and rebuilt it using [xcellerator's](https://github.com/xcellerator) ftrace helper library (for hooking into syscalls) so it works on newer kernels.
 
 ## Disclaimer
 
